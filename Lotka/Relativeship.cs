@@ -49,7 +49,11 @@ namespace Lotka
             this.d = d;
             this.r = r;
         }
-        //更新操作
+        /*
+         *更新操作
+         *使用洛特卡－沃尔泰拉方程实现数量变化
+         *维基百科链接:https://zh.wikipedia.org/wiki/%E6%B4%9B%E7%89%B9%E5%8D%A1%EF%BC%8D%E6%B2%83%E7%88%BE%E6%B3%B0%E6%8B%89%E6%96%B9%E7%A8%8B
+         */
         override public void UpdateCount()
         {
             base.animalOne.Engry = base.animalOne.Engry + (a * base.animalOne.Count - p * base.animalOne.Count * base.animalTwo.Count);
