@@ -43,10 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lotka.cs" />
-    <Compile Include="Animal.cs" />
+    <Compile Include="Models\Animal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relativeship.cs" />
+    <Compile Include="Models\Relativeship.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
