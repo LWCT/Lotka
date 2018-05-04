@@ -11,7 +11,7 @@ namespace Lotka
         public float timeStep;
         private DateTime latsTime = DateTime.Now;
 
-        List<Relativeship> relativeships = new List<Relativeship>();
+        List<Relativeship.Relativeship> relativeships = new List<Relativeship.Relativeship>();
         public Lokta(float timeStep)
         {
 
@@ -26,7 +26,7 @@ namespace Lotka
                 }
             }
         }
-        public void AddRelativeship(Relativeship relativeship)
+        public void AddRelativeship(Relativeship.Relativeship relativeship)
         {
             relativeships.Add(relativeship);
         }

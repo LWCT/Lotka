@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Animal;
 using System.IO;
-
+using Relativeship;
 namespace Lotka
 {
     class Program
@@ -17,7 +17,7 @@ namespace Lotka
             Animal.Animal animalOne = new Animal.Animal(4000);
             Animal.Animal animalTwo = new Animal.Animal(100);
 
-            Relativeship relativeship = new Prey(animalOne,animalTwo,0.1f,0.002f,0.00002f,0.1f);
+            Relativeship.Relativeship relativeship = new Prey(animalOne,animalTwo,0.1f,0.002f,0.00002f,0.1f);
 
             myLokta.AddRelativeship(relativeship);
 
